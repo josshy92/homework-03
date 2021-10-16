@@ -53,6 +53,6 @@ function generatePassword() {
   for (var i = 0; i < charstotal; i++) {
     newpw = newpw.concat(characterbank.charAt(random(characterbank.length - 1)))
   }
-
+// Make new pw return
   return newpw
 }
